@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop Solutions", "Loop Solu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays And Lists Solutions", "Arrays And Lists Solutions\Arrays And Lists Solutions.csproj", "{94F9C9C2-14A6-4440-B51C-4AC103A66911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working With Text Solutions", "Working With Text Solutions\Working With Text Solutions.csproj", "{3030017D-F33A-45FF-B3E8-A70B15221078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with Files", "Working with Files\Working with Files.csproj", "{360629C9-169B-4D05-BC31-CBA6FB1073F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{94F9C9C2-14A6-4440-B51C-4AC103A66911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F9C9C2-14A6-4440-B51C-4AC103A66911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F9C9C2-14A6-4440-B51C-4AC103A66911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3030017D-F33A-45FF-B3E8-A70B15221078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3030017D-F33A-45FF-B3E8-A70B15221078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3030017D-F33A-45FF-B3E8-A70B15221078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3030017D-F33A-45FF-B3E8-A70B15221078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
