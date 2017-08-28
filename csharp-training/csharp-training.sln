@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals Solutions", "csharp-training\Conditionals Solutions.csproj", "{7E5E2C11-BA16-4893-84FD-B28B9F5353AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - Conditionals", "01 - Conditional\01 - Conditionals.csproj", "{7E5E2C11-BA16-4893-84FD-B28B9F5353AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop Solutions", "Loop Solutions\Loop Solutions.csproj", "{4DE80904-239D-48F8-898F-C2C8DA073B99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - Loop", "02 - Loop\02 - Loop.csproj", "{4DE80904-239D-48F8-898F-C2C8DA073B99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays And Lists Solutions", "Arrays And Lists Solutions\Arrays And Lists Solutions.csproj", "{94F9C9C2-14A6-4440-B51C-4AC103A66911}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - Arrays And Lists", "03 - Arrays And Lists\03 - Arrays And Lists.csproj", "{94F9C9C2-14A6-4440-B51C-4AC103A66911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working With Text Solutions", "Working With Text Solutions\Working With Text Solutions.csproj", "{3030017D-F33A-45FF-B3E8-A70B15221078}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - Working With Text", "04 - Working With Text\04 - Working With Text.csproj", "{3030017D-F33A-45FF-B3E8-A70B15221078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with Files", "Working with Files\Working with Files.csproj", "{360629C9-169B-4D05-BC31-CBA6FB1073F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - Working with Files", "05 - Working with Files\05 - Working with Files.csproj", "{360629C9-169B-4D05-BC31-CBA6FB1073F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - Stopwatch", "06 - Stopwatch\06 - Stopwatch.csproj", "{E22E87EF-CAB2-4829-A2C4-45CBC3E72771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{360629C9-169B-4D05-BC31-CBA6FB1073F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22E87EF-CAB2-4829-A2C4-45CBC3E72771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22E87EF-CAB2-4829-A2C4-45CBC3E72771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22E87EF-CAB2-4829-A2C4-45CBC3E72771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22E87EF-CAB2-4829-A2C4-45CBC3E72771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7E5E2C11-BA16-4893-84FD-B28B9F5353AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>csharp_training</RootNamespace>
-    <AssemblyName>csharp-training</AssemblyName>
+    <RootNamespace>conditional_solutions</RootNamespace>
+    <AssemblyName>Conditional Solutions</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

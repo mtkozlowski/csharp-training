@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_training
+namespace conditional_solutions
 {
     class Program
     {
@@ -10,8 +10,6 @@ namespace csharp_training
             //Exercise2();
             //Exercise3();
             //Exercise4();
-
-
 
             Console.ReadKey();
         }
