@@ -11,7 +11,7 @@ namespace Loop_Solutions
             //Exercise2();
             //Exercise3();
             //Exercise4();
-            Exercise5();
+            //Exercise5();
 
             Console.ReadKey();
         }
@@ -66,11 +66,11 @@ namespace Loop_Solutions
             // For example, if the user enters 5, the program should calculate 5 x 4 x 3 x 2 x 1 and display it as 5! = 120.
             Console.WriteLine("Give me an input for factorial: ");
             var factorial = Convert.ToInt32(Console.ReadLine());
-            int factorialResult = 1;
-            while (factorial != 0)
+            var factorialResult = 1;
+
+            for (int i = factorial; i > 1; i--)
             {
-                factorialResult *= factorial;
-                factorial--;
+                factorialResult *= i;
             }
             Console.WriteLine("Factorial: " + factorialResult);
         }
@@ -82,16 +82,15 @@ namespace Loop_Solutions
 
             var input = "";
             var sumOfInputs = 0;
-            while (input != "ok")
+            do
             {
+                if (int.TryParse(input, out int result))
+                {
+                    sumOfInputs += result;
+                }
                 Console.WriteLine("Give me a number or type 'ok' to finish and sum it up: ");
                 input = Console.ReadLine();
-                if (input == "ok")
-                {
-                    break;
-                }
-                sumOfInputs += Convert.ToInt32(input);
-            }
+            } while (input != "ok");
 
             Console.WriteLine("sumOfInputs: " + sumOfInputs);
         }
@@ -105,7 +104,7 @@ namespace Loop_Solutions
             var count = 0;
             for (int i = 1; i <= 100; i++)
             {
-                var i1 = i % 3 == 0 ? ++count : count;
+                count += i % 3 == 0 ? 1 : 0;
             }
 
             Console.WriteLine("Total count of these numbers is: " + count);

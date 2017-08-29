@@ -7,7 +7,7 @@
     <ProjectGuid>{F5E98403-7051-42BB-814A-070F7A1840A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_07___Post</RootNamespace>
-    <AssemblyName>_07___Post</AssemblyName>
+    <AssemblyName>07 - Post</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Post.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
